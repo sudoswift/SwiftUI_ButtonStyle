@@ -13,11 +13,9 @@ struct BlurStyle: ButtonStyle {
             .font(.system(size: 20))
             .foregroundColor(.white)
             .padding()
-            .background(Color.purple)
+            .background(Color.black)
             .cornerRadius(20)
-            .scaleEffect(configuration.isPressed ? 0.8 : 1.0 )
-            //opacity modifier를 통해 isPressed 시 버튼의 투명도를 낮추는 애니매이션 효과를 준다.
-            .opacity(configuration.isPressed ? 0.5 : 1.0)
+            .blur(radius: configuration.isPressed ? 5 : 0)
     }
 }
 
@@ -26,10 +24,10 @@ struct BlurStyle_Previews: PreviewProvider {
         Button(action: {
             print("LongClick Click !!")
         }, label: {
-            Text("축소버튼")
+            Text("블러버튼")
                 .fontWeight(.bold)
         })
-        .buttonStyle(SmallerStyle())
+        .buttonStyle(BlurStyle())
 
     }
 }

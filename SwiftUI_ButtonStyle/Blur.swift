@@ -12,10 +12,10 @@ struct Blur: View {
         Button(action: {
             print("LongClick Click !!")
         }, label: {
-            Text("축소버튼")
+            Text("블러버튼")
                 .fontWeight(.bold)
         })
-        .buttonStyle(RotateStyle())
+        .buttonStyle(BlurStyle())
     }
 }
 

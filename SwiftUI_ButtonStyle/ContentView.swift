@@ -14,6 +14,7 @@ struct ContentView: View {
             LongClick()
             Smaller()
             Rotate()
+            Blur()
         }
 
     }
