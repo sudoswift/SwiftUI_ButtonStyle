@@ -15,11 +15,7 @@ struct RotateStyle: ButtonStyle {
             .padding()
             .background(Color.purple)
             .cornerRadius(20)
-            .scaleEffect(configuration.isPressed ? 1.3 : 1.0)
-            .onTapGesture {
-                    let haptic = UIImpactFeedbackGenerator(style: .heavy)
-                    haptic.impactOccurred()
-            }
+            .rotationEffect(configuration.isPressed ? .degrees(90) : .degrees(0))
     }
 }
 
