@@ -19,6 +19,8 @@
 		6F60E16B265A6AD30035D818 /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60E16A265A6AD30035D818 /* Rotate.swift */; };
 		6F60E16D265A95110035D818 /* SmallerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60E16C265A95110035D818 /* SmallerStyle.swift */; };
 		6F60E16F265A95160035D818 /* Smaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60E16E265A95160035D818 /* Smaller.swift */; };
+		6F60E171265A97E60035D818 /* BlurStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60E170265A97E60035D818 /* BlurStyle.swift */; };
+		6F60E173265A97EE0035D818 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60E172265A97EE0035D818 /* Blur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		6F60E16A265A6AD30035D818 /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
 		6F60E16C265A95110035D818 /* SmallerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerStyle.swift; sourceTree = "<group>"; };
 		6F60E16E265A95160035D818 /* Smaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaller.swift; sourceTree = "<group>"; };
+		6F60E170265A97E60035D818 /* BlurStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurStyle.swift; sourceTree = "<group>"; };
+		6F60E172265A97EE0035D818 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			children = (
 				6F522294265A5B3B000F258E /* SwiftUI_ButtonStyleApp.swift */,
 				6F522296265A5B3B000F258E /* ContentView.swift */,
+				6F60E170265A97E60035D818 /* BlurStyle.swift */,
+				6F60E172265A97EE0035D818 /* Blur.swift */,
 				6F60E168265A6AC70035D818 /* RotateStyle.swift */,
 				6F60E16C265A95110035D818 /* SmallerStyle.swift */,
 				6F60E16E265A95160035D818 /* Smaller.swift */,
@@ -163,10 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F522297265A5B3B000F258E /* ContentView.swift in Sources */,
+				6F60E171265A97E60035D818 /* BlurStyle.swift in Sources */,
 				6F60E165265A659A0035D818 /* LongClick.swift in Sources */,
 				6F60E167265A65AD0035D818 /* LongClickStyle.swift in Sources */,
 				6F60E163265A654C0035D818 /* TabButton.swift in Sources */,
 				6F5222A8265A6443000F258E /* TabButtonStyle.swift in Sources */,
+				6F60E173265A97EE0035D818 /* Blur.swift in Sources */,
 				6F60E169265A6AC70035D818 /* RotateStyle.swift in Sources */,
 				6F60E16D265A95110035D818 /* SmallerStyle.swift in Sources */,
 				6F60E16B265A6AD30035D818 /* Rotate.swift in Sources */,

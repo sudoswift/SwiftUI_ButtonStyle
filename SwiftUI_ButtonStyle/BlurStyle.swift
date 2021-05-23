@@ -1,5 +1,5 @@
 //
-//  SmallerStyle.swift
+//  BlurStyle.swift
 //  SwiftUI_ButtonStyle
 //
 //  Created by izvern on 2021/05/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SmallerStyle: ButtonStyle {
+struct BlurStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.system(size: 20))
@@ -21,7 +21,7 @@ struct SmallerStyle: ButtonStyle {
     }
 }
 
-struct SmallerStyle_Previews: PreviewProvider {
+struct BlurStyle_Previews: PreviewProvider {
     static var previews: some View {
         Button(action: {
             print("LongClick Click !!")
@@ -30,5 +30,6 @@ struct SmallerStyle_Previews: PreviewProvider {
                 .fontWeight(.bold)
         })
         .buttonStyle(SmallerStyle())
+
     }
 }

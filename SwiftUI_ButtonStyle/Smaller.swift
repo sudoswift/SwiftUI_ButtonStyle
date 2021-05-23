@@ -12,7 +12,7 @@ struct Smaller: View {
             Button(action: {
                 print("LongClick Click !!")
             }, label: {
-                Text("회전버튼")
+                Text("축소버튼")
                     .fontWeight(.bold)
             })
             .buttonStyle(SmallerStyle())
