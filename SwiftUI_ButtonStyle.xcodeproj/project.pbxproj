@@ -11,6 +11,7 @@
 		6F522297265A5B3B000F258E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F522296265A5B3B000F258E /* ContentView.swift */; };
 		6F522299265A5B3C000F258E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F522298265A5B3C000F258E /* Assets.xcassets */; };
 		6F52229C265A5B3C000F258E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F52229B265A5B3C000F258E /* Preview Assets.xcassets */; };
+		6F5222A6265A5DCE000F258E /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5222A5265A5DCE000F258E /* MyButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6F522298265A5B3C000F258E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F52229B265A5B3C000F258E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F52229D265A5B3C000F258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5222A5265A5DCE000F258E /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				6F522294265A5B3B000F258E /* SwiftUI_ButtonStyleApp.swift */,
 				6F522296265A5B3B000F258E /* ContentView.swift */,
+				6F5222A5265A5DCE000F258E /* MyButtonStyle.swift */,
 				6F522298265A5B3C000F258E /* Assets.xcassets */,
 				6F52229D265A5B3C000F258E /* Info.plist */,
 				6F52229A265A5B3C000F258E /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F522297265A5B3B000F258E /* ContentView.swift in Sources */,
+				6F5222A6265A5DCE000F258E /* MyButtonStyle.swift in Sources */,
 				6F522295265A5B3B000F258E /* SwiftUI_ButtonStyleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
