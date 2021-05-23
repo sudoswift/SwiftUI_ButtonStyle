@@ -11,10 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20.0){
             TabButton()
-                .buttonStyle(TabButtonStyle())
             LongClick()
-                .buttonStyle(LongClickStyle())
-            
+            Smaller()
+            Rotate()
         }
 
     }

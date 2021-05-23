@@ -17,6 +17,7 @@ struct TabButton: View {
             Text("탭")
                 .fontWeight(.bold) // 어떤 이유인지는 모르겠지만 custom ButtonStyle 에서 fontWeight를 넣을 수는 없다.
         })
+        .buttonStyle(TabButtonStyle())
     }
 }
 

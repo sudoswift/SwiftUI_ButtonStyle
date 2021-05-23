@@ -12,7 +12,7 @@ struct Rotate: View {
         Button(action: {
             print("LongClick Click !!")
         }, label: {
-            Text("롱클릭")
+            Text("회전버튼")
                 .fontWeight(.bold)
         })
         .buttonStyle(RotateStyle())
