@@ -9,18 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            Button(action: {
-                print("button clicked")
-            }, label: {
-                Text("탭")
-                    .font(.system(size: 20))
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(20)
-            })
+        VStack(spacing: 20.0){
+            TabButton()
+                .buttonStyle(TabButtonStyle())
+            LongClick()
+                .buttonStyle(LongClickStyle())
+            
         }
 
     }
